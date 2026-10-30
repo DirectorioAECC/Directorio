@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Directorio voluntariado</title>
+<style>
+:root{--bg:#f3f7f6;--card:#fff;--ink:#17302c;--muted:#5d7571;--brand:#0b8a6f;--brand-d:#076a55;--brand-l:#d9f0ea;--line:#dbe6e3;--hero1:#0b8a6f;--hero2:#065a48;--shadow:0 1px 2px rgba(10,50,40,.06),0 8px 24px rgba(10,50,40,.07)}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1b19;--card:#172725;--ink:#e6f2ef;--muted:#9bb5b0;--brand:#3cc4a3;--brand-d:#7fe0c6;--brand-l:#1d3a35;--line:#27403b;--hero1:#12705b;--hero2:#0a4a3c;--shadow:none}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.top{position:sticky;top:0;z-index:10;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px clamp(16px,4vw,40px);background:var(--bg);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:-.01em}
+.logo{width:34px;height:34px;border-radius:10px;background:var(--brand);display:grid;place-items:center;color:#fff;flex:none}
+.logo svg{width:20px;height:20px}
+.search input{width:min(340px,46vw);padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit}
+.search input:focus{outline:2px solid var(--brand);outline-offset:1px}
+main{max-width:1100px;margin:0 auto;padding:24px clamp(16px,4vw,40px) 60px;min-height:70vh}
+.hero{padding:36px 0 8px}
+.hero h1{font-size:clamp(2rem,6vw,3.3rem);line-height:1.05;margin:0 0 10px;letter-spacing:-.03em}
+.hero p{margin:0;color:var(--muted);font-size:1.1rem}
+.big{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:28px}
+.bigcard{display:flex;flex-direction:column;gap:4px;padding:28px;border-radius:22px;background:linear-gradient(140deg,var(--hero1),var(--hero2));color:#fff;box-shadow:var(--shadow);transition:transform .15s}
+.bigcard:hover,.bigcard:focus-visible{transform:translateY(-3px)}
+.bigcard svg{width:46px;height:46px;margin-bottom:10px}
+.bigcard strong{font-size:1.5rem;letter-spacing:.05em}
+.bigcard span{opacity:.88}
+.crumbs{font-size:.92rem;color:var(--muted);margin-bottom:14px}
+.crumbs a{color:var(--brand-d);font-weight:600}
+.crumbs a:hover{text-decoration:underline}
+h2{font-size:clamp(1.5rem,4vw,2.1rem);letter-spacing:-.02em;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 20px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.chip{padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.tile{display:flex;flex-direction:column;gap:2px;padding:18px;border-radius:18px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .15s,border-color .15s;min-height:130px}
+.tile:hover,.tile:focus-visible{transform:translateY(-3px);border-color:var(--brand)}
+.tile .num{align-self:flex-start;min-width:32px;padding:2px 10px;border-radius:999px;background:var(--brand-l);color:var(--brand-d);font-weight:700;font-size:.85rem;text-align:center;margin-bottom:8px}
+.tile strong{font-size:1.08rem;line-height:1.25}
+.tile .loc{color:var(--muted);font-size:.92rem}
+.tile .who{margin-top:auto;padding-top:8px;font-size:.92rem;color:var(--brand-d);font-weight:600}
+.pc{display:flex;flex-direction:column;gap:2px;padding:20px;border-radius:18px;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow)}
+.pc .eb{font-size:.8rem;text-transform:uppercase;letter-spacing:.06em;color:var(--brand-d);font-weight:700}
+.pc h3{margin:2px 0 10px;font-size:1.2rem;line-height:1.25}
+.line{display:flex;align-items:baseline;gap:10px;padding:7px 0;border-top:1px solid var(--line)}
+.line .k{flex:none;width:76px;font-size:.82rem;color:var(--muted)}
+.line .v{flex:1;min-width:0;overflow-wrap:anywhere}
+.line a.v{color:var(--brand-d);font-weight:600}
+.line a.v:hover{text-decoration:underline}
+.copy{flex:none;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:8px;padding:2px 10px;font-size:.8rem}
+.copy:hover{border-color:var(--brand);color:var(--brand-d)}
+.more{margin-top:10px;font-weight:600;color:var(--brand-d)}
+.detail{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;max-width:820px}
+.empty{padding:40px 0;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 16px 30px}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;opacity:0;pointer-events:none;transition:.2s;font-size:.92rem}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+@media (max-width:560px){.brand span:last-child{display:none}.search input{width:62vw}}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span><span>Directorio voluntariado</span></a>
+  <label class="search"><span class="sr">Buscar</span><input id="q" type="search" placeholder="Buscar persona, hospital, teléfono…" autocomplete="off"></label>
+</header>
+<main id="app"><p class="empty">Cargando directorio…</p></main>
+<footer id="foot"></footer>
+<div id="toast" role="status"></div>
+<script type="text/plain" id="fallback">Tipo,Nº,Hospital / Área,Localidad,Cargo,Nombre,Teléfono,Email,Ubicación despacho,Horario,Responsable
+Sede,,Responsable de área,Madrid,,Marta López de Haro,661 250 778,marta.lopezdeharo@contraelcancer.es,,,
+Sede,,"Bizneo, soporte y campañas",Madrid,,Ana Martínez de la Riva,672 011 203,ana.martinezdelariva@contraelcancer.es,,,
+Sede,,Domicilio y CCPP,Madrid,,Laura Navarrete,667 113 634,laura.navarrete@contraelcancer.es,,,
+Sede,,Administrativa del área,Madrid,,Mª Paz Sanz,685 651 507,paz.sanz@contraelcancer.es,,,
+Sede,,"Espacio activo, residencia y voluntariado ciencia",Madrid,,Ana Alcalde,675 038 653,ana.alcalder@contraelcancer.es,,,
+Sede,,Hospitales Zona Este,Madrid,,Jose Botas,653 590 388,jose.salido@contraelcancer.es,,,
+Sede,,Hospitales Zona Oeste,Madrid,,Ignacio Sanz,619 518 196,ignacio.sanz@contraelcancer.es,,,
+Sede,,Testimonial,Madrid,,Marta Loring,691 368 532,marta.loring@contraelcancer.es,,,
+Sede,,Comunitario,Madrid,,Carmen Madrid,655 117 143,carmen.madrid@contraelcancer.es,,,
+Sede,,Ciclo vida persona voluntaria,Madrid,,Carmen Escribano,685 349 157,mariacarmen.escribano@contraelcancer.es,,,
+Hospital,1,Villalba,Villalba,Coordinadora,Mónica García,605 639 635,monica.garcía@contraelcancer.es,2ª Planta Bloque C. Junto a hospital de día psiquiátrico,L-V mañanas,Nacho
+Hospital,2,HM Torrelodones,Torrelodones,Coordinador,Pablo Esteve,635 872 238,pablo.esteve@contraelcancer.es,Servicio de oncología,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,3,Puerta de Hierro,Majadahonda,Coordinadora,Isabel de Carvalho,605 63 89 45,isabel.decarvalho@contraelcancer.es,1ª Planta Pabellón A de Hospitalización (Frente caf. Personal),"L, M, X y V mañanas. J completo.",Nacho
+Hospital,4,Quirón,Pozuelo de Alarcón,Coordinadora,Cristina Sanz,675 293 072,cristina.sanz@contraelcancer.es,2ª planta. Frente a habitación 207,L-V mañanas,Nacho
+Hospital,5,HM Montepríncipe,Boadilla del Monte,Coordinador,Pablo Esteve,635 872 238,pablo.esteve@contraelcancer.es,Servicio de oncología,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,6,Alcorcón (Fundación),Alcorcón,Coordinadora,Montserrat Martínez,691 243 884,montse.martinez@contraelcancer.es,Hospital Onco-Hematológico 1ª Planta Despacho 1,"M completo. L, X, J y V mañanas.",Nacho
+Hospital,7,Universitario de Móstoles,Móstoles,Coordinadora,Cristina Simón,685 651 487,cristina.simonm@contraelcancer.es,Planta Baja. Hall derecho. Junto a la puerta C (junto a consultas de oncología),L-V mañanas,Nacho
+Hospital,8,Rey Juan Carlos,Móstoles,Coordinadora,Pamela Mora,605 639 279,pamelamaria.mora@contraelcancer.es,Hospital de Día 1ª Planta,L-V mañanas,Nacho
+Hospital,9,HM Puerta del Sur,Móstoles,Coordinador,Pablo Esteve,635 872 238,pablo.esteve@contraelcancer.es,Hospital de día,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,10,Infanta Sofía,S.S. de los Reyes,Coordinadora,Laura Gómez,655 77 64 15,laura.gomezd@contraelcancer.es,Despacho 401. Planta 4. Torre 4.,L-V mañanas,Nacho
+Hospital,11,La Paz,Madrid,Coordinadora,Esther Muñoz,657 960 559,esther.munoz@contraelcancer.es,Planta baja del hospital materno,"L, X, J y V mañanas. M completo.",Nacho
+Hospital,12,Ramón y Cajal,Madrid,Coordinadora,Carolina Dhanwani,637 867 862,carolina.dhanwani@contraelcancer.es,Planta -1. Pasillo junto a consultas hematología.,"L, M, J y V mañanas. X completo.",Nacho
+Hospital,13,12 de Octubre (Adultos),Madrid,Coordinadora,Sagrario Alegre,606 939 886,sagrario.alegre@contraelcancer.es,Hospital de Día de Oncología Médica,L-V mañanas,Nacho
+Hospital,13,12 de Octubre (Niños),Madrid,Coordinador,Rafa Mesa,651 043 954,rafael.mesa@contraelcancer.es,Módulo E. Planta 6ª,L-V tardes,Nacho
+Hospital,14,Sanitas La Zarzuela,Madrid,Coordinadora,Andrea Herraiz,692 138 813,andrea.herraiz@contraelcancer.es,UCCO Edificio F,L-V mañanas,Nacho
+Hospital,15,Sanitas La Moraleja,Madrid,Coordinadora,Andrea Herraiz,692 138 813,andrea.herraiz@contraelcancer.es,UCCO 3ª Planta,L-V mañanas,Nacho
+Hospital,16,HM Sanchinarro,Madrid,Coordinadora,Natalia Bautista,635 601 614,natalia.bautista@contraelcancer.com,Consultas externas. 1ª planta,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,17,La Princesa,Madrid,Coordinadora,María Salvador,691 243 881,maria.salvador@contraelcancer.es,Planta 0 (junto a atención al paciente),L-J completo. V mañanas.,Nacho
+Hospital,18,Gregorio Marañón,Madrid,Coordinadora,Sonia García,605 639 429,sonia.garcia@contraelcancer.es,H. Oncológico y Terapias Avanzadas. Planta 0,"L, M, J y V mañana. X completo.",Jose
+Hospital,19,Santa Cristina,Madrid,Coordinadora,Samira Yuvany,657 950 333,sheylasamira.yulany@contraelcancer.es,Planta 4ª. Edificio hospitalización,"L y M tardes. X, J y V: mañanas.",Jose
+Hospital,20,Clínico San Carlos,Madrid,Coordinadora,Ana Villar,675 293 076,ana.villar@contraelcancer.es,1ª planta sur (ONC. MÉDICA),"L, M, J y V mañana. X completo.",Jose
+Hospital,21,Gómez Ulla,Madrid,Coordinadora,Julene Montes,655 775 371,julene.montes@contraelcancer.es,4ª planta del edificio principal (al final pasillo Consultas),"M, J y V: mañanas. L y X: completo.",Jose
+Hospital,22,Fundación Jiménez Díaz,Madrid,Coordinadora,Marcela Talero,655 776 532,marcela.talero@contraelcancer.es,6ª Planta Unidad 36 (Hospitalización Oncología),L-V mañanas,Jose
+Hospital,23,Infanta Leonor,Madrid,Coordinadora,Rocío Martínez,635 872 112,rocio.martinez@contraelcancer.es,Despacho 05 Pl. 2D,L-V mañanas,Jose
+Hospital,24,Virgen de la Torre,Madrid,Coordinadora,Rocío Martínez,635 872 112,rocio.martinez@contraelcancer.es,5ª Planta,L-V mañanas,Jose
+Hospital,25,Henares,Coslada,Coordinadora,Patricia López,635 870 838,patricia.lopez@contraelcancer.es,"Planta 1, E1. Junto a hospital de día.",L-V mañanas,Jose
+Hospital,26,Torrejón,Torrejón de Ardoz,Coordinadora,Nerea Tabares,605 639 537,nerea.tabaresortega@contraelcancer.es,1ª Planta (Radioterapia),L-V mañanas,Jose
+Hospital,27,Príncipe de Asturias,Alcalá de Henares,Coordinadora,Belén Díaz-Albo,675 293 083,belen.diaz-albo@contraelcancer.es,Planta 4 Zona B. Pasillo de urgencias,L-V mañanas,Jose
+Hospital,28,Sureste,Arganda del Rey,Coordinador,Enrique Toribio,605 638 970,a.toribio@contraelcancer.es,Planta Baja. Pasillo tras el mostrador de información.,L-V mañanas,Jose
+Hospital,29,Severo Ochoa,Leganés,Coordinadora,Paloma Barba,605 639 228,paloma.barba@contraelcancer.es,Planta Baja (junto a atención al paciente),L-V mañanas,Jose
+Hospital,30,Getafe,Getafe,Coordinadora,Ana Moreno,692 137 995,anaisabel.moreno@contraelcancer.es,1ª Planta Consultas Externas,L-V mañanas,Jose
+Hospital,30,Getafe,Getafe,Coordinadora,Marta Riaño,692 137 995,marta.riano@contraelcancer.es,1ª Planta Consultas Externas,L-V mañanas,Jose
+Hospital,31,Fuenlabrada,Fuenlabrada,Coordinador,Iván Aranda,691 243 901 / 91 600 65 77,ivan.aranda@contraelcancer.es,2ª planta (EDIFICIO ONCOLÓGICO),L-V mañanas,Jose
+Hospital,32,Infanta Cristina,Parla,Coordinadora,Yolanda González,605 639 341,yolanda.gonzalezg@contraelcancer.es,Planta Baja. Zona de Rayos.,L-V mañanas,Jose
+Hospital,33,Infanta Elena,Valdemoro,Coordinadora,Sofía Jorge,635 870 465,sofia.jorge@contraelcancer.es,Box 7. Hospital de Día,L-V mañanas,Jose
+Hospital,34,El Tajo,Aranjuez,Coordinadora,Alicia Hernández,605 639 094,alicia.hernandez@contraelcancer.es,1ª Planta Hospital de Día (Zona de vol. y docencia),L-V mañanas,Jose
+</script>
+<script>
+// ==PURE-START
+const norm=s=>(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function parseCSV(text){
+  text=text.replace(/^﻿/,'');
+  const first=text.split(/\r?\n/)[0]||'';
+  const delim=first.split(';').length>first.split(',').length?';':',';
+  const rows=[];let row=[],cell='',q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){
+      if(c==='"'){ if(text[i+1]==='"'){cell+='"';i++;} else q=false; }
+      else cell+=c;
+    }else if(c==='"') q=true;
+    else if(c===delim){row.push(cell);cell='';}
+    else if(c==='\n'||c==='\r'){
+      if(c==='\r'&&text[i+1]==='\n')i++;
+      row.push(cell);cell='';
+      if(row.some(x=>x.trim()!==''))rows.push(row);
+      row=[];
+    }else cell+=c;
+  }
+  if(cell!==''||row.length){row.push(cell);if(row.some(x=>x.trim()!==''))rows.push(row);}
+  return rows;
+}
+const FIELDS={
+  tipo:['tipo'],
+  num:['nº','n','no','num','numero'],
+  lugar:['hospital / area','hospital/area','hospital','area','centro'],
+  localidad:['localidad','municipio','ciudad'],
+  cargo:['cargo','rol'],
+  nombre:['nombre','contacto','persona'],
+  tel:['telefono','tel','movil'],
+  email:['email','correo','e-mail'],
+  despacho:['ubicacion despacho','ubicacion','despacho'],
+  horario:['horario'],
+  resp:['responsable','zona']
+};
+function buildData(text){
+  const rows=parseCSV(text);
+  const head=(rows.shift()||[]).map(norm);
+  const idx={};
+  for(const k in FIELDS) idx[k]=head.findIndex(h=>FIELDS[k].includes(h));
+  const all=rows.map(r=>{const o={};for(const k in FIELDS)o[k]=idx[k]>=0?(r[idx[k]]||'').trim():'';return o;})
+    .filter(o=>o.lugar||o.nombre);
+  const sede=all.filter(o=>norm(o.tipo)==='sede');
+  const map=new Map();
+  all.filter(o=>norm(o.tipo)!=='sede').forEach(o=>{
+    if(!map.has(o.lugar))map.set(o.lugar,{lugar:o.lugar,num:parseInt(o.num,10)||999,localidad:o.localidad,resp:o.resp,contacts:[]});
+    map.get(o.lugar).contacts.push(o);
+  });
+  const hosp=[...map.values()].sort((a,b)=>a.num-b.num||a.lugar.localeCompare(b.lugar,'es'));
+  return {all,sede,hosp};
+}
+// ==PURE-END
+
+let D={all:[],sede:[],hosp:[]},fallbackUsed=false,filtro='';
+const app=document.getElementById('app'),qi=document.getElementById('q');
+
+const row=(k,v,href)=>v?`<div class="line"><span class="k">${k}</span>${href?`<a class="v" href="${esc(href)}">${esc(v)}</a><button class="copy" data-copy="${esc(v)}" aria-label="Copiar ${k.toLowerCase()}">Copiar</button>`:`<span class="v">${esc(v)}</span>`}</div>`:'';
+const phones=t=>(t||'').split('/').map(s=>s.trim()).filter(Boolean).map(p=>row('Teléfono',p,'tel:'+p.replace(/[^\d+]/g,''))).join('');
+function card(o,eyebrow,href){
+  return `<article class="pc"><div class="eb">${esc(eyebrow)}</div><h3>${esc(o.nombre||'—')}</h3>${phones(o.tel)}${row('Email',o.email,'mailto:'+o.email)}${row('Despacho',o.despacho)}${row('Horario',o.horario)}${href?`<a class="more" href="${href}">Ver hospital →</a>`:''}</article>`;
+}
+const crumbs=list=>`<nav class="crumbs" aria-label="Ruta">${list.map(([t,h])=>h?`<a href="${h}">${esc(t)}</a>`:esc(t)).join(' / ')}</nav>`;
+const hospHref=l=>'#/hospital/'+encodeURIComponent(l);
+
+function viewHome(){
+  app.innerHTML=`<section class="hero"><h1>Directorio voluntariado</h1><p>Contactos de la sede y de la coordinación en cada hospital.</p>
+  <div class="big">
+   <a class="bigcard" href="#/sede"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="6" width="30" height="36" rx="3"/><path d="M17 15h4M27 15h4M17 23h4M27 23h4M20 42v-8h8v8"/></svg><strong>SEDE</strong><span>${D.sede.length} contactos</span></a>
+   <a class="bigcard" href="#/hospitales"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="10" width="36" height="32" rx="4"/><path d="M24 18v16M16 26h16"/></svg><strong>HOSPITALES</strong><span>${D.hosp.length} hospitales</span></a>
+  </div></section>`;
+}
+function viewSede(){
+  app.innerHTML=crumbs([['Inicio','#/'],['Sede']])+`<h2>Sede de Madrid</h2><p class="sub">Cada persona, según su área de responsabilidad.</p><div class="grid">${D.sede.map(o=>card(o,o.lugar)).join('')||'<p class="empty">No hay contactos de sede.</p>'}</div>`;
+}
+function viewHospitales(){
+  const resps=[...new Set(D.hosp.map(h=>h.resp).filter(Boolean))];
+  const list=D.hosp.filter(h=>!filtro||h.resp===filtro);
+  app.innerHTML=crumbs([['Inicio','#/'],['Hospitales']])+`<h2>Hospitales</h2><p class="sub">Pulsa un hospital para ver a su coordinador/a.</p>`+
+   (resps.length>1?`<div class="chips" role="group" aria-label="Filtrar por responsable"><button class="chip" data-f="" aria-pressed="${!filtro}">Todos</button>${resps.map(r=>`<button class="chip" data-f="${esc(r)}" aria-pressed="${filtro===r}">${esc(r)}</button>`).join('')}</div>`:'')+
+   `<div class="grid">${list.map(h=>{const names=[...new Set(h.contacts.map(c=>c.nombre).filter(Boolean))].join(' · ');
+     return `<a class="tile" href="${hospHref(h.lugar)}">${h.num<999?`<span class="num">${h.num}</span>`:''}<strong>${esc(h.lugar)}</strong><span class="loc">${esc(h.localidad)}</span><span class="who">${esc(names)}</span></a>`;}).join('')}</div>`;
+}
+function viewHospital(name){
+  const h=D.hosp.find(x=>x.lugar===name);
+  if(!h){app.innerHTML=crumbs([['Inicio','#/'],['Hospitales','#/hospitales']])+'<p class="empty">No encuentro ese hospital.</p>';return;}
+  app.innerHTML=crumbs([['Inicio','#/'],['Hospitales','#/hospitales'],[h.lugar]])+`<h2>${esc(h.lugar)}</h2><p class="sub">${esc(h.localidad)}</p><div class="detail">${h.contacts.map(c=>card(c,c.cargo||'Coordinación')).join('')}</div>`;
+}
+function viewSearch(q){
+  const toks=norm(q).split(/\s+/).filter(Boolean);
+  const res=D.all.filter(o=>{const hay=norm([o.lugar,o.localidad,o.cargo,o.nombre,o.tel,o.email].join(' '));return toks.every(t=>hay.includes(t));});
+  app.innerHTML=`<h2>Resultados</h2><p class="sub">${res.length} para «${esc(q)}»</p><div class="grid">${res.map(o=>{const isS=norm(o.tipo)==='sede';return card(o,[o.lugar,isS?'':o.localidad].filter(Boolean).join(' · '),isS?'':hospHref(o.lugar));}).join('')||'<p class="empty">Sin resultados.</p>'}</div>`;
+}
+function route(){
+  const parts=(location.hash.slice(1)||'/').split('/');
+  const a=parts[1]||'',b=parts[2]?decodeURIComponent(parts[2]):'';
+  if(a==='sede')viewSede();else if(a==='hospitales')viewHospitales();else if(a==='hospital')viewHospital(b);else viewHome();
+  window.scrollTo(0,0);
+}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove('on'),1600);}
+
+window.addEventListener('hashchange',()=>{qi.value='';route();});
+qi.addEventListener('input',()=>{const v=qi.value.trim();v.length>=2?viewSearch(v):route();});
+app.addEventListener('click',e=>{
+  const c=e.target.closest('[data-copy]');
+  if(c){const v=c.dataset.copy;(navigator.clipboard?navigator.clipboard.writeText(v):Promise.reject()).then(()=>toast('Copiado'),()=>{const t=document.createElement('textarea');t.value=v;document.body.appendChild(t);t.select();try{document.execCommand('copy');toast('Copiado');}catch(_){}t.remove();});return;}
+  const f=e.target.closest('[data-f]');
+  if(f){filtro=f.dataset.f;viewHospitales();}
+});
+
+(async function(){
+  let text;
+  try{
+    const r=await fetch('contactos.csv?v='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error(r.status);
+    text=await r.text();
+  }catch(e){
+    text=document.getElementById('fallback').textContent.trim();
+    fallbackUsed=true;
+  }
+  D=buildData(text);
+  document.getElementById('foot').textContent=D.all.length+' contactos'+(fallbackUsed?' · vista previa con datos incluidos en la página':'');
+  route();
+})();
+</script>
+</body>
+</html>

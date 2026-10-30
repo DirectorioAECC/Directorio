@@ -1,0 +1,47 @@
+Tipo,Nº,Hospital / Área,Localidad,Cargo,Nombre,Teléfono,Email,Ubicación despacho,Horario,Responsable
+Sede,,Responsable de área,Madrid,,Marta López de Haro,661 250 778,marta.lopezdeharo@contraelcancer.es,,,
+Sede,,"Bizneo, soporte y campañas",Madrid,,Ana Martínez de la Riva,672 011 203,ana.martinezdelariva@contraelcancer.es,,,
+Sede,,Domicilio y CCPP,Madrid,,Laura Navarrete,667 113 634,laura.navarrete@contraelcancer.es,,,
+Sede,,Administrativa del área,Madrid,,Mª Paz Sanz,685 651 507,paz.sanz@contraelcancer.es,,,
+Sede,,"Espacio activo, residencia y voluntariado ciencia",Madrid,,Ana Alcalde,675 038 653,ana.alcalder@contraelcancer.es,,,
+Sede,,Hospitales Zona Este,Madrid,,Jose Botas,653 590 388,jose.salido@contraelcancer.es,,,
+Sede,,Hospitales Zona Oeste,Madrid,,Ignacio Sanz,619 518 196,ignacio.sanz@contraelcancer.es,,,
+Sede,,Testimonial,Madrid,,Marta Loring,691 368 532,marta.loring@contraelcancer.es,,,
+Sede,,Comunitario,Madrid,,Carmen Madrid,655 117 143,carmen.madrid@contraelcancer.es,,,
+Sede,,Ciclo vida persona voluntaria,Madrid,,Carmen Escribano,685 349 157,mariacarmen.escribano@contraelcancer.es,,,
+Hospital,1,Villalba,Villalba,Coordinadora,Mónica García,605 639 635,monica.garcía@contraelcancer.es,2ª Planta Bloque C. Junto a hospital de día psiquiátrico,L-V mañanas,Nacho
+Hospital,2,HM Torrelodones,Torrelodones,Coordinador,Pablo Esteve,635 872 238,pablo.esteve@contraelcancer.es,Servicio de oncología,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,3,Puerta de Hierro,Majadahonda,Coordinadora,Isabel de Carvalho,605 63 89 45,isabel.decarvalho@contraelcancer.es,1ª Planta Pabellón A de Hospitalización (Frente caf. Personal),"L, M, X y V mañanas. J completo.",Nacho
+Hospital,4,Quirón,Pozuelo de Alarcón,Coordinadora,Cristina Sanz,675 293 072,cristina.sanz@contraelcancer.es,2ª planta. Frente a habitación 207,L-V mañanas,Nacho
+Hospital,5,HM Montepríncipe,Boadilla del Monte,Coordinador,Pablo Esteve,635 872 238,pablo.esteve@contraelcancer.es,Servicio de oncología,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,6,Alcorcón (Fundación),Alcorcón,Coordinadora,Montserrat Martínez,691 243 884,montse.martinez@contraelcancer.es,Hospital Onco-Hematológico 1ª Planta Despacho 1,"M completo. L, X, J y V mañanas.",Nacho
+Hospital,7,Universitario de Móstoles,Móstoles,Coordinadora,Cristina Simón,685 651 487,cristina.simonm@contraelcancer.es,Planta Baja. Hall derecho. Junto a la puerta C (junto a consultas de oncología),L-V mañanas,Nacho
+Hospital,8,Rey Juan Carlos,Móstoles,Coordinadora,Pamela Mora,605 639 279,pamelamaria.mora@contraelcancer.es,Hospital de Día 1ª Planta,L-V mañanas,Nacho
+Hospital,9,HM Puerta del Sur,Móstoles,Coordinador,Pablo Esteve,635 872 238,pablo.esteve@contraelcancer.es,Hospital de día,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,10,Infanta Sofía,S.S. de los Reyes,Coordinadora,Laura Gómez,655 77 64 15,laura.gomezd@contraelcancer.es,Despacho 401. Planta 4. Torre 4.,L-V mañanas,Nacho
+Hospital,11,La Paz,Madrid,Coordinadora,Esther Muñoz,657 960 559,esther.munoz@contraelcancer.es,Planta baja del hospital materno,"L, X, J y V mañanas. M completo.",Nacho
+Hospital,12,Ramón y Cajal,Madrid,Coordinadora,Carolina Dhanwani,637 867 862,carolina.dhanwani@contraelcancer.es,Planta -1. Pasillo junto a consultas hematología.,"L, M, J y V mañanas. X completo.",Nacho
+Hospital,13,12 de Octubre (Adultos),Madrid,Coordinadora,Sagrario Alegre,606 939 886,sagrario.alegre@contraelcancer.es,Hospital de Día de Oncología Médica,L-V mañanas,Nacho
+Hospital,13,12 de Octubre (Niños),Madrid,Coordinador,Rafa Mesa,651 043 954,rafael.mesa@contraelcancer.es,Módulo E. Planta 6ª,L-V tardes,Nacho
+Hospital,14,Sanitas La Zarzuela,Madrid,Coordinadora,Andrea Herraiz,692 138 813,andrea.herraiz@contraelcancer.es,UCCO Edificio F,L-V mañanas,Nacho
+Hospital,15,Sanitas La Moraleja,Madrid,Coordinadora,Andrea Herraiz,692 138 813,andrea.herraiz@contraelcancer.es,UCCO 3ª Planta,L-V mañanas,Nacho
+Hospital,16,HM Sanchinarro,Madrid,Coordinadora,Natalia Bautista,635 601 614,natalia.bautista@contraelcancer.com,Consultas externas. 1ª planta,"L, M, X y V: mañanas. J: completo.",Nacho
+Hospital,17,La Princesa,Madrid,Coordinadora,María Salvador,691 243 881,maria.salvador@contraelcancer.es,Planta 0 (junto a atención al paciente),L-J completo. V mañanas.,Nacho
+Hospital,18,Gregorio Marañón,Madrid,Coordinadora,Sonia García,605 639 429,sonia.garcia@contraelcancer.es,H. Oncológico y Terapias Avanzadas. Planta 0,"L, M, J y V mañana. X completo.",Jose
+Hospital,19,Santa Cristina,Madrid,Coordinadora,Samira Yuvany,657 950 333,sheylasamira.yulany@contraelcancer.es,Planta 4ª. Edificio hospitalización,"L y M tardes. X, J y V: mañanas.",Jose
+Hospital,20,Clínico San Carlos,Madrid,Coordinadora,Ana Villar,675 293 076,ana.villar@contraelcancer.es,1ª planta sur (ONC. MÉDICA),"L, M, J y V mañana. X completo.",Jose
+Hospital,21,Gómez Ulla,Madrid,Coordinadora,Julene Montes,655 775 371,julene.montes@contraelcancer.es,4ª planta del edificio principal (al final pasillo Consultas),"M, J y V: mañanas. L y X: completo.",Jose
+Hospital,22,Fundación Jiménez Díaz,Madrid,Coordinadora,Marcela Talero,655 776 532,marcela.talero@contraelcancer.es,6ª Planta Unidad 36 (Hospitalización Oncología),L-V mañanas,Jose
+Hospital,23,Infanta Leonor,Madrid,Coordinadora,Rocío Martínez,635 872 112,rocio.martinez@contraelcancer.es,Despacho 05 Pl. 2D,L-V mañanas,Jose
+Hospital,24,Virgen de la Torre,Madrid,Coordinadora,Rocío Martínez,635 872 112,rocio.martinez@contraelcancer.es,5ª Planta,L-V mañanas,Jose
+Hospital,25,Henares,Coslada,Coordinadora,Patricia López,635 870 838,patricia.lopez@contraelcancer.es,"Planta 1, E1. Junto a hospital de día.",L-V mañanas,Jose
+Hospital,26,Torrejón,Torrejón de Ardoz,Coordinadora,Nerea Tabares,605 639 537,nerea.tabaresortega@contraelcancer.es,1ª Planta (Radioterapia),L-V mañanas,Jose
+Hospital,27,Príncipe de Asturias,Alcalá de Henares,Coordinadora,Belén Díaz-Albo,675 293 083,belen.diaz-albo@contraelcancer.es,Planta 4 Zona B. Pasillo de urgencias,L-V mañanas,Jose
+Hospital,28,Sureste,Arganda del Rey,Coordinador,Enrique Toribio,605 638 970,a.toribio@contraelcancer.es,Planta Baja. Pasillo tras el mostrador de información.,L-V mañanas,Jose
+Hospital,29,Severo Ochoa,Leganés,Coordinadora,Paloma Barba,605 639 228,paloma.barba@contraelcancer.es,Planta Baja (junto a atención al paciente),L-V mañanas,Jose
+Hospital,30,Getafe,Getafe,Coordinadora,Ana Moreno,692 137 995,anaisabel.moreno@contraelcancer.es,1ª Planta Consultas Externas,L-V mañanas,Jose
+Hospital,30,Getafe,Getafe,Coordinadora,Marta Riaño,692 137 995,marta.riano@contraelcancer.es,1ª Planta Consultas Externas,L-V mañanas,Jose
+Hospital,31,Fuenlabrada,Fuenlabrada,Coordinador,Iván Aranda,691 243 901 / 91 600 65 77,ivan.aranda@contraelcancer.es,2ª planta (EDIFICIO ONCOLÓGICO),L-V mañanas,Jose
+Hospital,32,Infanta Cristina,Parla,Coordinadora,Yolanda González,605 639 341,yolanda.gonzalezg@contraelcancer.es,Planta Baja. Zona de Rayos.,L-V mañanas,Jose
+Hospital,33,Infanta Elena,Valdemoro,Coordinadora,Sofía Jorge,635 870 465,sofia.jorge@contraelcancer.es,Box 7. Hospital de Día,L-V mañanas,Jose
+Hospital,34,El Tajo,Aranjuez,Coordinadora,Alicia Hernández,605 639 094,alicia.hernandez@contraelcancer.es,1ª Planta Hospital de Día (Zona de vol. y docencia),L-V mañanas,Jose

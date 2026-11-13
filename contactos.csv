@@ -9,7 +9,7 @@ Sede;;Responsable Hospitales Zona Oeste;Madrid;;Ignacio Sanz;619 518 196;ignacio
 Sede;;Testimonial;Madrid;;Marta Loring;691 368 532;marta.loring@contraelcancer.es;;;;FOTOS/marta-loring.jpg;
 Sede;;Comunitario;Madrid;;Carmen Madrid;655 117 143;carmen.madrid@contraelcancer.es;;;;FOTOS/carmen-madrid.jpg;
 Sede;;Ciclo vida persona voluntaria;Madrid;;Carmen Escribano;685 349 157;mariacarmen.escribano@contraelcancer.es;;;;FOTOS/carmen-escribano.png;
-Hospital;1;Villalba;Villalba;Coordinadora;Sofía Jorge;605 639 635;sofia.jorge@contraelcancer.es;2ª Planta Bloque C. Junto a hospital de día psiquiátrico;L-V mañanas;Nacho;FOTOS/sofia-jorge.jpg;Revisar email: lleva tilde en «garcía»
+Hospital;1;Villalba;Villalba;Coordinadora;Sofía Jorge;605 639 635;sofia.jorge@contraelcancer.es;2ª Planta Bloque C. Junto a hospital de día psiquiátrico;M completo. L, X, J y V mañanas.;Nacho;FOTOS/sofia-jorge.jpg;Revisar email: lleva tilde en «garcía»
 Hospital;2;Puerta de Hierro;Majadahonda;Coordinadora;Isabel de Carvalho;605 63 89 45;isabel.decarvalho@contraelcancer.es;1ª Planta Pabellón A de Hospitalización (Frente caf. Personal);L, M, X y V mañanas. J completo.;Nacho;FOTOS/isabel-decarvalho.jpg;
 Hospital;3;Quirón;Pozuelo de Alarcón;Coordinadora;Cristina Sanz;675 293 072;cristina.sanz@contraelcancer.es;2ª planta. Frente a habitación 207;L-V mañanas;Nacho;FOTOS/cristina-sanz.png;
 Hospital;4;Fundación Alcorcón;Alcorcón;Coordinadora;Montserrat Martínez;691 243 884;montse.martinez@contraelcancer.es;Hospital Onco-Hematológico 1ª Planta Despacho 1;M completo. L, X, J y V mañanas.;Nacho;FOTOS/montse-martinez.jpg;
@@ -22,12 +22,11 @@ Hospital;10;HM Torrelodones;Torrelodones;Coordinador;Pablo Esteve;635 872 238;pa
 Hospital;11;Infanta Sofía;S.S. de los Reyes;Coordinadora;Laura Gómez;655 77 64 15;laura.gomezd@contraelcancer.es;Despacho 401. Planta 4. Torre 4.;L-V mañanas;Nacho;FOTOS/laura-gomez.png;
 Hospital;12;La Paz;Madrid;Coordinadora;Esther Muñoz;657 960 559;esther.munoz@contraelcancer.es;Planta baja del hospital materno;L, X, J y V mañanas. M completo.;Nacho;FOTOS/esther-munoz.jpg;
 Hospital;13;Ramón y Cajal;Madrid;Coordinadora;Carolina Dhanwani;637 867 862;carolina.dhanwani@contraelcancer.es;Planta -1. Pasillo junto a consultas hematología.;L, M, J y V mañanas. X completo.;Nacho;FOTOS/carolina-nunez.jpg;
-Hospital;14;12 de Octubre (Adultos);Madrid;Coordinadora;"Sagrario Alegre
-Prueba";606 939 886;sagrario.alegre@contraelcancer.es;Hospital de Día de Oncología Médica;L-V mañanas;Nacho;FOTOS/sagrario-alegre.jpg;
+Hospital;14;12 de Octubre (Adultos);Madrid;Coordinadora;Sagrario Alegre;606 939 886;sagrario.alegre@contraelcancer.es;Hospital de Día de Oncología Médica;L-V mañanas;Nacho;FOTOS/sagrario-alegre.jpg;
 Hospital;14;12 de Octubre (Niños);Madrid;Coordinador;Rafa Mesa;651 043 954;rafael.mesa@contraelcancer.es;Módulo E. Planta 6ª;L-V tardes;Nacho;FOTOS/rafa-mesa.jpg;
-Hospital;15;Sanitas Valdebebas;Madrid;Coordinadora;Mónica García;692 138 813;monica.garcía@contraelcancer.es;PTE;L-V mañanas;Nacho;FOTOS/monica-garcia.jpg;
-Hospital;16;Sanitas La Zarzuela;Madrid;Coordinadora;Mónica García;692 138 813;monica.garcía@contraelcancer.es;UCCO Edificio F;L-V mañanas;Nacho;FOTOS/monica-garcia.jpg;
-Hospital;17;Sanitas La Moraleja;Madrid;Coordinadora;Mónica García;692 138 813;monica.garcía@contraelcancer.es;UCCO 3ª Planta;L-V mañanas;Nacho;FOTOS/monica-garcia.jpg;
+Hospital;15;Sanitas Valdebebas;Madrid;Coordinadora;Mónica García;692 138 813;monica.garcía@contraelcancer.es;Planta -1. Radioterapia.;L completo. M-V mañanas.;Nacho;FOTOS/monica-garcia.jpg;
+Hospital;16;Sanitas La Zarzuela;Madrid;Coordinadora;Mónica García;692 138 813;monica.garcía@contraelcancer.es;UCCO Edificio F;L completo. M-V mañanas.;Nacho;FOTOS/monica-garcia.jpg;
+Hospital;17;Sanitas La Moraleja;Madrid;Coordinadora;Mónica García;692 138 813;monica.garcía@contraelcancer.es;UCCO 3ª Planta;L completo. M-V mañanas.;Nacho;FOTOS/monica-garcia.jpg;
 Hospital;18;La Princesa;Madrid;Coordinadora;María Salvador;691 243 881;maria.salvador@contraelcancer.es;Planta 0 (junto a atención al paciente);L-J completo. V mañanas.;Nacho;FOTOS/maria-salvador.jpg;
 Hospital;19;Gregorio Marañón;Madrid;Coordinadora;Sonia García;605 639 429;sonia.garcia@contraelcancer.es;H. Oncológico y Terapias Avanzadas. Planta 0;L, M, J y V mañana. X completo.;Jose;FOTOS/sonia-garcia.jpg;
 Hospital;20;Santa Cristina;Madrid;Coordinadora;Samira Yuvany;657 950 333;sheylasamira.yulany@contraelcancer.es;Planta 4ª. Edificio hospitalización;L y M tardes. X, J y V: mañanas.;Jose;FOTOS/samira-yulani.png;Revisar: el apellido (Yuvany) y el email (yulany) no coinciden
@@ -44,5 +43,5 @@ Hospital;30;Severo Ochoa;Leganés;Coordinadora;Paloma Barba;605 639 228;paloma.b
 Hospital;31;Getafe;Getafe;Coordinadora;Ana Moreno;692 137 995;anaisabel.moreno@contraelcancer.es;1ª Planta Consultas Externas;L-V mañanas;Jose;FOTOS/ana-moreno.jpg;Getafe sale dos veces en el Genially (la otra ficha es Marta Riaño con el mismo teléfono): ¿es una sustitución?
 Hospital;32;Fuenlabrada;Fuenlabrada;Coordinador;Iván Aranda;691 243 901 / 91 600 65 77;ivan.aranda@contraelcancer.es;2ª planta (EDIFICIO ONCOLÓGICO);L-V mañanas;Jose;FOTOS/ivan-aranda.jpg;
 Hospital;33;Infanta Cristina;Parla;Coordinadora;Yolanda González;605 639 341;yolanda.gonzalezg@contraelcancer.es;Planta Baja. Zona de Rayos.;L-V mañanas;Jose;FOTOS/yolanda-gonzalez.png;
-Hospital;34;Infanta Elena;Valdemoro;Coordinadora;Sofía Jorge;635 870 465;sofia.jorge@contraelcancer.es;Box 7. Hospital de Día;L-V mañanas;Jose;FOTOS/sofia-jorge.jpg;
+Hospital;34;Infanta Elena;Valdemoro;Coordinadora;Sofía Jorge;635 870 465;sofia.jorge@contraelcancer.es;Box 7. Hospital de Día;M completo. L, X, J y V mañanas.;Jose;FOTOS/sofia-jorge.jpg;
 Hospital;35;El Tajo;Aranjuez;Coordinadora;Alicia Hernández;605 639 094;alicia.hernandez@contraelcancer.es;1ª Planta Hospital de Día (Zona de vol. y docencia);L-V mañanas;Jose;FOTOS/alicia-hernandez.png;
